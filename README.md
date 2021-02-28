@@ -34,18 +34,18 @@ Los **alumnos** pueden matricularse en varias asignaturas. Dentro de la categor�
 
 ## Pasos a seguir
 
-### 1. Diseño conceptual (PDF - [nombre])
+### 1. Diseño conceptual ([BBDDUniverdidad_Diseño conceptual])
 Para saber cómo estructurar la base de datos haremos un diagrama con las entidades, sus atributos y sus relaciones.
 
 
-### 2. Diseño lógico (PDF - [nombre])
+### 2. Diseño lógico ([BBDDUniversidad_Diseño lógico])
 Definida la estructura la convertiremos en un modelo relacional de tablas.
 
-### 3. Creación de la base de datos, las tablas y la carga de datos  (BBDDUniversidad.sql - Lineas 1 - 2019)
+### 3. Creación de la base de datos, las tablas y la carga de datos  ([BBDDUniversidad.sql] - Lineas 1 - 2019])
 Con código SQL crearemos toda la estructura que albergará los datos.
 La carga de datos la haremos de forma manual en en las tablas de curso, profesor, asignatura y matrícula; y con importaciones de ficheros las tablas de alumno, tlfContactoPRof e impartir
 
-### 4. Consultas (BBDDUniversidad.sql - Líneas 2022 - 2128)
+### 4. Consultas ([BBDDUniversidad.sql] - Líneas 2022 - 2128)
 
 Las consultas realizadas será:
 * Caracter, nº de alumnos, nota mínima, máxima y media de las asignaturas. Ordenar el resultado por curso primero y nombre de la asignatura después.
@@ -64,4 +64,10 @@ Las consultas realizadas será:
 * Queremos repartir un bonus a los 10 profesores con mejores medias en las asignaturas que imparten.
 * Obtener toda la información de asignaturas que contienen los caracteres 'datos' o 'progra' en su nombre. Ordenar por curso y luego por nombre.
 * Obtener listado para enviar un comunicado oficial personalizado con el nombre a todas las personas de la universidad (alumnos y profesores). 
+
+
+[BBDDUniverdidad_Diseño conceptual]: https://github.com/pabloabap/Base-de-datos-SQL_Universidad/blob/main/BBDDUnviersidad_Dise%C3%B1o%20conceptual.pdf
+[BBDDUniversidad_Diseño lógico]: https://github.com/pabloabap/Base-de-datos-SQL_Universidad/blob/main/BBDDUnviersidad_Dise%C3%B1o%20l%C3%B3gico.pdf
+[BBDDUniversidad.sql]: https://github.com/pabloabap/Base-de-datos-SQL_Universidad/blob/main/BBDDUniversidad.sql
+
 
